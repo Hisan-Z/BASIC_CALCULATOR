@@ -15,9 +15,8 @@ body {
 img {
     display: inline-block;
     text-align: center;
-
     width: 50%;
-    height: 400px;
+    height: 20%;
     margin-left: 200px;
 }
 
