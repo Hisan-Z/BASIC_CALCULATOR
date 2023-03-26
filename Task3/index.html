@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Task 1 </title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+            <input type="text" name="input_box" id="res" class="elements"> 
+        <div class="row bts">
+            <div class="symbol">
+                <input type="button" value="(" onclick="Solve(']')">
+            </div>
+            <div class="symbol">
+                <input type="button" value=")" onclick="Solve('[')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="ans" onclick="Result()">
+            </div>
+            <div class="symbol">
+                <input type="button" value="del" onclick="Back()">
+            </div>
+            <div class="symbol">
+                <input type="button" value="clear" onclick="Clear()">
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <input type="button" value="7" onclick="Solve('7')">
+            </div>
+            <div class="">
+                <input type="button" value="8" onclick="Solve('8')">
+            </div>
+            <div class="">
+                <input type="button" value="9" onclick="Solve('9')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="%" onclick="Solve('%')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="√" onclick="Solve('√')">
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <input type="button" value="4" onclick="Solve('4')">
+            </div>
+            <div class="">
+                <input type="button" value="5" onclick="Solve('5')">
+            </div>
+            <div class="">
+                <input type="button" value="6" onclick="Solve('6')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="x" onclick="Solve('*')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="÷" onclick="Solve('/')">
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <input type="button" value="1" onclick="Solve('1')">
+            </div>
+            <div class="">
+                <input type="button" value="2" onclick="Solve('2')">
+            </div>
+            <div class="">
+                <input type="button" value="3" onclick="Solve('3')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="+" onclick="Solve('+')">
+            </div>
+            <div class="symbol">
+                <input type="button" value="-" onclick="Solve('-')">
+            </div>
+        </div>
+        <div class="row">
+            <div class="">
+                <input type="button" value="." onclick="Solve('.')">
+            </div>
+            <div class="">
+                <input type="button" value="0" onclick="Solve('0')">
+            </div>
+            <div class="">
+                
+                <input type="button" value="00" onclick="Solve('00')">
+            </div>
+            <div class="symbol r1">
+                <input type="button" value="ENTER" onclick="Result()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
